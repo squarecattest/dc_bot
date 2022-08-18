@@ -326,4 +326,4 @@ async def help(ctx: commands.Context, command: str = None, *args):
     return await ctx.send(embed = result_Embed(type = "error", code = -9, name = "指令名稱", input = command))
 
 
-bot.run("MTAwNjIzNzA5NzMwNjM3NDE3NQ.GCNZe2.NUcaBKlFe9HAK5hnONBksJE-U35PLTXZrwGEJo")
+bot.run("")
