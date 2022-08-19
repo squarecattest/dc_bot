@@ -112,8 +112,8 @@ async def role(ctx: commands.Context, mode: str = None, *args: str):
     '''
     mode "modify"
     edit a role
-    command: /role add <@role> [name] [color] [hoist] [mentionable] [permissions] [position]
-    command: /role set <@身分組> [名稱] [身分組顏色] [分開顯示] [允許提及] [權限] [位階]
+    command: /role modify <@role> [name] [color] [hoist] [mentionable] [permissions] [position]
+    command: /role modify <@身分組> [名稱] [身分組顏色] [分開顯示] [允許提及] [權限] [位階]
     '''
     if mode == "modify":
         length = len(args)
